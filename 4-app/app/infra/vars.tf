@@ -1,0 +1,13 @@
+variable "ecs_task_execution_role" {}
+variable "cluster_name" {}
+variable "repository_url" {}
+variable "image_tag" {}
+variable "desired_count" {}
+variable "aws_ecs_service_role" {}
+variable "vpc_id" {}
+variable "listener_arn" {}
+variable "subdomain" {}
+variable "domain" {}
+variable "zone_id" {}
+variable "lb_dns_name" {}
+variable "lb_zone_id" {}
